@@ -48,7 +48,7 @@ print("\n Distribution for \"hydrogen\" : ", course_freq_dist.get('hydrogen'))
 # Tokenization
 
 # Read base file into raw text variable
-base_file = open(os.getcwd() + "/" + File_to_Read, 'rt')
+base_file = open(os.getcwd() + "/" + File_to_Read, mode = 'rt', encoding = 'utf-8')
 raw_text = base_file.read()
 base_file.close()
 
